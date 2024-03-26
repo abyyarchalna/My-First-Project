@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    background: url(Untitled-2-01.jpg) no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.im{
+    width: 230px;
+    border: none;
+    height: 60px;
+    margin-top: 13px;
+    margin-left: 30px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+    border: none;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin-top: 3px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.link:hover{
+    font-size: large;
+}
+
+
+.button{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: medium;
+    background-color: rgb(199, 84, 8);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: .5s;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.button:hover{
+    background-color: wheat;
+    color: black;
+    box-shadow: 0px 0px 15px wheat;
+}
+
+.input{
+    padding-left: 18px;
+    padding-right: 410px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 20px;
+    position: relative;
+    left: 500px;
+    top: 85px;
+    border: none;
+}
+
+.hq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    color: wheat;
+    position: relative;
+    top: 70px;
+}
+
+.qh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(209, 208, 208);
+    position: relative;
+    top: 75px;
+    font-weight: 200;
+}
+
+.ab{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 140px;
+}
+
+.imone{
+    width: 130px;
+    height: 150px;
+}
+
+.imtwo{
+    width: 105px;
+    height: 150px;
+}
+
+.imthree{
+    width: 110px;
+    height: 150px;
+}
+
+.mnmn{
+    height: 315px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.toiuyy{
+    width: 200px;
+    color: white;
+}
+
+#aw{
+    position: relative;
+    left: 20px;
+}
+
+#wa{
+    position: relative;
+    left: 12px;
+}
+
+#ww{
+    position: relative;
+    right: 20px;
+}
+
+.para{
+    border: 2px solid;
+    width: 300px;
+    text-align: center;
+}
+
+.tyuyt{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    bottom: 130px;
+}
+
+#qwe{
+    position: relative;
+    left: 45px;
+    color: rgb(207, 207, 207);
+    border: none;
+    bottom: 12px;
+}
+
+#ewq{
+    position: relative;
+    left: 10px;
+    color: rgb(207, 207, 207);
+    border: none;
+}
+
+#wer{
+    position: relative;
+    right: 38px;
+    color: rgb(207, 207, 207);
+    border: none;
+}
+
+@media screen and (max-width: 450px){
+    
+body{
+    background: url(Untitled-1-01.jpg)no-repeat;
+    background-size: cover;
+}
+
+}
